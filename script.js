@@ -44,25 +44,25 @@ for (var i of tableData) {
   }
 
 }
-// function myFunction() {
-//     var search, filter, table, tr, td, i;
-//     search = document.getElementById("search");
-//     filter = search.value.toUpperCase();
-//     table = document.getElementById("table");
-//     tr = table.getElementsByTagName("tr");
-//     // console.log(tr)
-//     for (i = 0; i < tr.length; i++) {
+function myFunction() {
+    var search, filter, table, tr, td, i;
+    search = document.getElementById("search");
+    filter = search.value.toUpperCase();
+    table = document.getElementById("table");
+    tr = table.getElementsByTagName("tr");
+    // console.log(tr)
+    for (i = 0; i < tr.length; i++) {
         
-//       td = tr[i].getElementsByTagName("td")[1];
-//       if (td) {
-//         if (td.innerHTML.toUpperCase().includes(filter)) {
-//           tr[i].style.display = "";
-//         } else {
-//           tr[i].style.display = "none";
-//         }
-//       }       
-//     }
-// }
+      td = tr[i].getElementsByTagName("td")[1];
+      if (td) {
+        if (td.innerHTML.toUpperCase().includes(filter)) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }       
+    }
+}
 
 
 
